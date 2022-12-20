@@ -11,6 +11,9 @@ import {
 } from "./colors";
 import NavBar from "./NavBar";
 
+//august tests
+// import FishParts from "./FishParts";
+
 export const ActionButton = styled.button`
   padding: 10px 20px;
   background-color: ${ButtonColor};
@@ -148,6 +151,9 @@ const App = () => {
   const [apps, setApps] = useState<any[]>([]);
   const [user, setUser] = useState<any>(null);
 
+  //august test
+  // console.log(FishParts);
+  
   useEffect(() => {
 
     // This method will retrieve data from the database... once it exists

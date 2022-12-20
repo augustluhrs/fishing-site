@@ -5,6 +5,10 @@ import './index.css';
 import Router from './Router'
 import * as serviceWorker from './serviceWorker';
 
+import FishAssets from './FishParts';
+
+console.log(FishAssets);
+
 ReactDOM.render(<Router />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

@@ -5,7 +5,7 @@ import ProfilePage from "./Profile.tsx";
 import PublicProfilePage from "./PublicProfile.tsx";
 import LoginPage from "./LoginPage.tsx";
 import SignUpPage from "./SignUpPage.tsx";
-import CreateFishPage from "./CreateFishPage.tsx";
+// import CreateFishPage from "./CreateFishPage.tsx";
 import LeaderboardPage from "./LeaderboardPage.tsx";
 import QRCodeDestinationPage from "./QRCodeDestinationPage.tsx";
 import GameLinkPage from "./GameLinkPage.tsx";
@@ -24,7 +24,7 @@ const Router = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={App} />
-        <Route exact path="/create" component={CreateFishPage} />
+        {/* <Route exact path="/create" component={CreateFishPage} /> */}
         <Route exact path="/leaderboard" component={LeaderboardPage} />
         <Route exact path="/profile" component={Profile} />
         <Route exact path="/profile" component={ProfilePage} />
